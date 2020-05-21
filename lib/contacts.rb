@@ -4,7 +4,7 @@ require_relative "../lib/contacts.rb"
 puts remove_strawberry	puts remove_strawberry(contacts = {
     "Jon Snow" => {
       name: "Jon",
-      email: "jon_snow@thewall.we", 
+      email: "jon_snow@thewall.we",
       favorite_icecream_flavors: ["chocolate", "vanilla"]
     },
     "Freddy Mercury" => {
@@ -16,7 +16,7 @@ puts remove_strawberry	puts remove_strawberry(contacts = {
 
 
 
-def remove_strawberry(contacts)	
+def remove_strawberry(contacts)
 
 
 def remove_strawberry(contacts)
@@ -27,7 +27,5 @@ def remove_strawberry(contacts)
       end
     end
   end
-end	
 end
-
-
+end
